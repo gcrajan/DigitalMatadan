@@ -1,0 +1,12 @@
+[04-Jun-2023 04:05:40 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: Unknown database 'electiondb' in D:\votingApp\php\Classes\Classes.php:372
+Stack trace:
+#0 D:\votingApp\php\Classes\Classes.php(372): mysqli->__construct('localhost', 'root', Object(SensitiveParameterValue), 'ElectionDb')
+#1 D:\votingApp\index.php(1): require('D:\\votingApp\\ph...')
+#2 {main}
+  thrown in D:\votingApp\php\Classes\Classes.php on line 372
+[04-Jun-2023 04:06:00 UTC] PHP Warning:  Trying to access array offset on value of type null in D:\votingApp\php\Classes\Classes.php on line 236
+[04-Jun-2023 04:06:56 UTC] PHP Warning:  Trying to access array offset on value of type null in D:\votingApp\php\Classes\Classes.php on line 236
+[04-Jun-2023 04:07:01 UTC] PHP Warning:  Trying to access array offset on value of type null in D:\votingApp\php\Classes\Classes.php on line 236
+[04-Jun-2023 04:07:03 UTC] PHP Warning:  Trying to access array offset on value of type null in D:\votingApp\php\Classes\Classes.php on line 236
+[04-Jun-2023 04:07:17 UTC] PHP Warning:  Trying to access array offset on value of type null in D:\votingApp\php\Classes\Classes.php on line 236
+[04-Jun-2023 04:18:40 UTC] PHP Warning:  Undefined array key "Election_area" in D:\votingApp\adminMember.php on line 14

@@ -1,0 +1,818 @@
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+html,body{height: 100%;width:100% ;}
+body {
+  font-family: "Helvetica";
+  font-style: normal;
+}
+
+#navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 1rem 5rem;
+}
+#navbar a img {
+  width: 33px;
+}
+#navbar a {
+  text-decoration: none;
+  font-weight: 600;
+  font-size: 23px;
+  line-height: 50px;
+  color: #ff8a53;
+  /* padding: 0px 5px; */
+}
+#navbar a:hover {
+  color: #f59e76;
+}
+.navbar-txt-mid{
+  margin: 0px 20px;
+}
+#logo-navbar {
+  display: flex;
+  align-items: center;
+}
+#section-home {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  position: relative;
+}
+#section-home-p {
+  margin-top: 3rem;
+}
+#section-home div img {
+  margin: 3rem 0rem;
+}
+
+/*-------------- Footer ------ */
+
+#footer {
+  padding: 3rem 5rem;
+  background-color: #fcccb6;
+}
+#div-footer {
+  display: flex;
+  justify-content: space-between;
+}
+#footer div div h2 {
+  font-weight: 700;
+  font-size: 30px;
+  line-height: 48px;
+  color: #ff8a53;
+}
+#footer div div div p {
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 37px;
+  color: #292321;
+  padding: 0.1rem 0rem;
+}
+#footer div div div p img {
+  padding-right: 0.3rem;
+  width: 1.5rem;
+}
+#copyright-footer p {
+  text-align: center;
+  font-weight: 700;
+  font-size: 30px;
+  line-height: 48px;
+  color: #ff8a53;
+}
+/*-------------- Footer ------ */
+
+/*-------------- indexHome page ------ */
+.article-admin {
+  display: flex;
+  align-items: center;
+  box-shadow: -3px -3px 7px #ffffff73, 2px 2px 5px rgba(94, 104, 121, 0.288);
+  margin: 5rem;
+  border-radius: 10px;
+}
+.form-content-home {
+  padding: 40px 20px;
+  border-radius: 10px;
+  background-color: #ffe3d6;
+}
+.img-home img {
+  width: 20rem;
+}
+.form-text-modal-vote {
+  font-size: 33px;
+  font-weight: 600;
+  margin-bottom: 15px;
+  color: #ff8a53;
+  text-align: center;
+}
+.indexHome-form {
+  display: flex;
+  justify-content: space-between;
+}
+.indexHome-form form{
+  padding: 1rem 1.5rem;
+}
+.candidate-img {
+  width: 1.5rem;
+  height: 1.5rem;
+  object-fit: cover;
+  border-radius: 50%;
+  margin: 0rem 0.2rem 0rem 0.5rem;
+}
+.candidate-img:hover {
+  scale: 1.7;
+}
+.indexHome-form-input{
+  width: 1rem;
+  height: 1rem;
+}
+.indexHome-form-div{
+  display: flex;
+  align-items: center;
+  margin: 0.5rem 0rem;
+}
+#normal-text {
+  font-size: 20px;
+  font-weight: 600;
+  color: #f97b3f;
+}
+.radiobtn-text {
+  font-size: 18px;
+  font-weight: 400;
+  color: #f97b3f;
+}
+/*-------------- indexHome page ------ */
+
+/*-------------- Result page ------ */
+#section-result {
+  margin: 5rem;
+}
+#div-section-result {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 5rem;
+}
+#info-candidates {
+  width: 45%;
+}
+#info-top-candidates {
+  width: 45%;
+}
+#info-party {
+  width: 45%;
+}
+#info-top-party {
+  width: 45%;
+}
+
+#voter-info-candidates {
+  border-collapse: collapse;
+  width: 100%;
+  font-size: 16px;
+  text-align: center;
+  color: #fd6d29;
+}
+#voter-info-candidates tr td img {
+  width: 3rem;
+  height: 3rem;
+  object-fit: cover;
+}
+#voter-info-candidates td,
+#voter-info-candidates th {
+  border: 1px solid #ddd;
+  padding: 8px;
+}
+
+#voter-info-candidates tr:nth-child(even) {
+  background-color: #fcf2ed;
+}
+
+#voter-info-candidates tr:hover {
+  background-color: #fcccb6;
+}
+
+#voter-info-candidates th {
+  padding-top: 12px;
+  padding-bottom: 12px;
+  text-align: left;
+  background-color: #ff8a53;
+  color: white;
+}
+
+.candidates-filter-area {
+  background-color: #ff8a53;
+  font-size: 1.2rem;
+  color: #ffffff;
+  padding: 6px;
+  border: none;
+}
+.select-width {
+  width: 100%;
+  margin-bottom: 1rem;
+}
+#voter-header-candidates {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+/*-------------- Result page ------ */
+
+/*-------------- adminHome page ------ */
+#section-adminHome {
+  margin: 3rem 5rem 5rem 5rem;
+}
+#election-date-tabel {
+  width: 100%;
+}
+
+#article-adminHome{margin-top: 10px;}
+
+#div-hide-article-adminHome{
+  display: flex;
+  justify-content: space-between;
+  align-items: baseline;
+}
+#empty-profile-topic{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: -5rem;
+}
+#empty-profile-text{
+  font-weight: 600;
+  font-size: 20px;
+  line-height: 50px;
+  color: #ff8a53;
+}
+#adminMember-partyTxt{
+  font-weight: 600;
+  font-size: 22px;
+  line-height: 40px;
+  color: #ff8a53;
+}
+#adminMember-candidateTxt{
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 20px;
+  color: #ff8a53;
+}
+#CandidateDiv-article-adminHome{
+  margin-top: 2rem;
+}
+.extraMarginBtn{
+  margin-top: 10px;
+}
+#div-article-adminHome{
+  background-color: #fcf2ed;
+  padding: 20px;
+  border-radius: 20px;
+}
+#candidates-information input {
+  height: 2.5rem;
+  padding-left: 10px;
+  outline: none;
+  border: none;
+  background: #dde1e7;
+  color: #595959;
+  border-radius: 10px;
+  box-shadow: inset 2px 2px 5px #babecc, inset -5px -5px 10px #ffffff73;
+  padding-top:9px;
+}
+#candidates-information{
+  border-collapse: collapse;
+  width: 100%;
+  font-size: 16px;
+  text-align: center;
+  color: rgb(253, 109, 41);
+}
+
+#candidates-information tr td img {
+  width: 3rem;
+  height: 3rem;
+  object-fit: cover;
+}
+#empty-profile-img{
+  width: 5rem;
+}
+#image-empty-profilePage{
+  width: 25rem;
+}
+#movingimage-empty-profilePage1 {
+  animation: drift 25s linear infinite;
+  width: 2.5rem;
+}
+#movingimage-empty-profilePage2 {
+  animation: drift 24s linear infinite;
+  width: 2.5rem;
+  animation-delay: 2s;
+}
+#movingimage-empty-profilePage3 {
+  animation: drift 23s linear infinite;
+  width: 2rem;
+  animation-delay: 4s;
+}
+#movingimage-empty-profilePage4 {
+  animation: drift 26s linear infinite;
+  width: 5.5rem;
+  animation-delay: 4s;
+}
+@keyframes drift {
+  from { transform: translatex(0vw);}
+  to { transform: translateX(-65vw);}
+}
+/*-------------- adminHome page ------ */
+
+/*-------------- Utilities ------ */
+
+#activepage {
+  display: none;
+}
+#main-text {
+  font-weight: 700;
+  font-size: 64px;
+  line-height: 85px;
+  color: #ff8a53;
+}
+#second-text {
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 80px;
+  color: #ff8a53;
+}
+
+.allBtn {
+  background-color: #ff8a53;
+  border: 2px solid #ff8a53;
+  font-weight: 400;
+  font-size: 28px;
+  line-height: 37px;
+  color: #ffffff;
+  border-radius: 9px;
+  padding: 0.5rem 1rem;
+  cursor: pointer;
+}
+.allBtn:hover {
+  background-color: #ffffff;
+  border: 2px solid #ff8a53;
+  color: #ff8a53;
+}
+.vote-btn {
+  margin-bottom: 5rem;
+  width: 7rem;
+}
+.submitBtn {
+  background-color: #ff8a53;
+  border: 2px solid #ff8a53;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 20px;
+  color: #ffffff;
+  border-radius: 5px;
+  padding: 0.5rem 1rem;
+  cursor: pointer;
+  text-decoration: none;
+}
+.submitBtn:hover {
+  background-color: #ffffff;
+  border: 2px solid #ff8a53;
+  color: #ff8a53;
+}
+.radiobtn-form {
+  margin: 15px 0;
+  height: 3rem;
+  width: 100%;
+  font-size: 16px;
+  font-weight: 600;
+  background: #dde1e7;
+  border-radius: 25px;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  color: #595959;
+  box-shadow: 2px 2px 5px #babecc, -5px -5px 10px #ffffff73;
+}
+.link-a {
+  text-decoration: none;
+  color: #595959;
+  padding: 1rem 3rem;
+}
+#section-admin {
+  display: flex;
+  justify-content: center;
+}
+.form-content {
+  width: 330px;
+  padding: 40px 30px;
+  background: #ffffff;
+  border-radius: 10px;
+  /* box-shadow: -3px -3px 7px #ffffff73, 2px 2px 5px rgba(94,104,121,0.288); */
+  margin: 2rem 0rem 5rem 0rem;
+}
+
+.form-content .form-text {
+  font-size: 33px;
+  font-weight: 600;
+  margin-bottom: 35px;
+  color: #ff8a53;
+  text-align: center;
+}
+
+.form-field {
+  height: 50px;
+  width: 100%;
+  display: flex;
+  position: relative;
+  margin-top: 20px;
+}
+
+.form-field input {
+  height: 100%;
+  width: 100%;
+  padding-left: 45px;
+  outline: none;
+  border: none;
+  font-size: 18px;
+  background: #dde1e7;
+  color: #595959;
+  border-radius: 25px;
+  box-shadow: inset 2px 2px 5px #babecc, inset -5px -5px 10px #ffffff73;
+}
+
+.form-field input:focus {
+  box-shadow: inset 1px 1px 2px #babecc, inset -1px -1px 2px #ffffff73;
+}
+
+.form-field span {
+  position: absolute;
+  color: #595959;
+  width: 50px;
+  line-height: 50px;
+}
+
+.form-field label {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  left: 45px;
+  pointer-events: none;
+  color: #666666;
+}
+
+.form-field input:valid ~ label {
+  opacity: 0;
+}
+
+.forgot-pass {
+  text-align: left;
+  margin: 10px 0 10px 5px;
+}
+
+.forgot-pass a {
+  font-size: 16px;
+  color: #3498db;
+  text-decoration: none;
+}
+
+.forgot-pass:hover a {
+  text-decoration: underline;
+}
+
+.btn-modal {
+  margin: 15px 0;
+  width: 100%;
+  height: 50px;
+  font-size: 18px;
+  line-height: 50px;
+  font-weight: 600;
+  background: #dde1e7;
+  border-radius: 25px;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  color: #595959;
+  box-shadow: 2px 2px 5px #babecc, -5px -5px 10px #ffffff73;
+}
+
+button:focus {
+  color: #3498db;
+  box-shadow: inset 2px 2px 5px #babecc, inset -5px -5px 10px #ffffff73;
+}
+
+.sign-up {
+  margin: 10px 0;
+  color: #595959;
+  font-size: 16px;
+}
+
+.sign-up a {
+  color: #3498db;
+  text-decoration: none;
+}
+
+.sign-up a:hover {
+  text-decoration: underline;
+}
+
+#voteModal {
+  display: none;
+  position: fixed;
+  z-index: 1;
+  padding-top: 4rem;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  overflow: auto;
+  background-color: rgba(0, 0, 0, 0.4);
+}
+#addPartyModal{
+  display: none;
+  position: fixed;
+  z-index: 2;
+  padding-top: 4rem;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  overflow: auto;
+  background-color: rgba(0, 0, 0, 0.4);
+}
+#addCandidateModal{
+  display: none;
+  position: fixed;
+  z-index: 2;
+  padding-top: 4rem;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  overflow: auto;
+  background-color: rgba(0, 0, 0, 0.4);
+}
+#electionSetupModal{
+  display: none;
+  position: fixed;
+  z-index: 3;
+  padding-top: 4rem;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  overflow: auto;
+  background-color: rgba(0, 0, 0, 0.4);
+}
+#content-voteModal {
+  background-color: #ffffff;
+  margin: auto;
+  padding: 1rem 2.5rem;
+  border: 1px solid #e7e6e6;
+  width: 40%;
+  border-radius: 1rem;
+}
+.close-voteModal {
+  color: #000000;
+  float: right;
+  font-size: 2.5rem;
+  font-weight: bold;
+  margin-bottom: 1rem;
+}
+
+.close-voteModal:hover,
+.close-voteModal:focus {
+  color: #ff0000;
+  text-decoration: none;
+  cursor: pointer;
+}
+#form-content-voteModal {
+  background: #ffffff;
+  border-radius: 10px;
+}
+.form-text-modal {
+  font-size: 33px;
+  font-weight: 600;
+  margin: 7px 0px 35px 0px;
+  color: #ff8a53;
+  text-align: center;
+}
+.message-modal {
+  text-align: center;
+  color: #f72626;
+}
+.buttondiv-modal {
+  display: flex;
+  justify-content: space-between;
+}
+.buttondiv-modal button {
+  width: 10rem;
+}
+
+
+/* ----------------------Responsive----------------- */
+@media only screen and (max-width:1325px) {
+  .tablerow-candidates-information{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    margin-bottom: 1.8rem;
+  }
+  .tabledata-candidates-information{
+    margin:5px;
+  }
+}
+@media only screen and (max-width:1160px) {
+  #second-text {
+    font-size: 25px;
+    line-height: 70px;
+  }
+  .buttondiv-modal {
+    flex-direction: column;
+  }
+  .buttondiv-modal button {
+    width: 100%;
+  }
+}
+@media only screen and (max-width:951px) {
+  #second-text {
+    font-size: 20px;
+    line-height: 20px;
+  }
+  .candidates-filter-area {
+    font-size: 1rem;
+    padding: 3px;
+  }
+  .form-text-modal {
+    font-size: 25px;
+    margin: 7px 0px 25px 0px;
+  }
+  #content-voteModal {
+    width: 50%;
+  }
+  .close-voteModal {
+    font-size: 2rem;
+  }
+  #candidates-information input {
+    height: 1.7rem;
+    padding-left: 6px;
+    padding-top: 3px;
+  }
+  #candidates-information tr td img {
+    width: 2rem;
+    height: 2rem;
+  }
+  .submitBtn {
+    font-size: 16px;
+    line-height: 8px;
+    padding: 0.5rem;
+  }
+}
+@media only screen and (max-width:790px) {
+  #navbar {
+    margin: 1rem 2rem;
+  }
+  #main-text {
+    font-size: 40px;
+  }
+  #section-home {
+    margin: 0rem 5rem;
+  }
+  #section-home div img {
+    margin: 1.5rem 0rem;
+    width: 15rem;
+  }
+  #footer {
+    padding: 2rem;
+  }
+  #footer div div h2 {
+    font-size: 20px;
+    line-height: 30px;
+  }
+  #footer div div div p {
+    font-size: 18px;
+    line-height: 25px;
+  }
+  #copyright-footer p {
+    font-weight: 700;
+    font-size: 20px;
+  }
+  /* -----------Results---------- */
+  
+  #section-result {
+    margin: 2rem;
+  }
+  #div-section-result {
+    margin-bottom: 3rem;
+    flex-direction: column-reverse;
+  }
+  #info-candidates {
+    width: 100%;
+    margin-top: 2rem;
+  }
+  #info-top-candidates {
+    width: 100%;
+  }
+  #info-party {
+    width: 100%;
+    margin-top: 2rem;
+  }
+  #info-top-party {
+    width: 100%;
+  }
+  #voter-header-candidates {
+    margin-bottom: 10px;
+  }
+  /* ------------------Admin--------------- */
+  #navbar a {
+    font-size: 17px;
+    line-height: 50px;
+    line-height: 10px;
+  }
+  .submitBtn {
+    font-size: 16px;
+    line-height: 10px;
+    padding: 0.5rem;
+  }
+  #section-adminHome {
+    margin: 2rem;
+  }
+  .img-home{
+    display: none;
+  }
+}
+
+@media only screen and (max-width:550px) {
+  #navbar {
+    margin: 1rem 1rem;
+  }
+  #navbar a {
+    font-size: 14px;
+  }
+  #navbar a img {
+    width: 22px;
+  }
+  #main-text {
+    font-size: 20px;
+    line-height: 30px;
+  } 
+  .vote-btn {
+    margin-bottom: 3rem;
+    width: 5rem;
+  }
+  #footer div div h2 {
+    font-size: 14px;
+  }
+  #footer {
+    padding: 0rem 1rem;
+  }
+  #footer div div div p {
+    font-size: 12px;
+    line-height: 20px;
+  }
+  #footer div div div p img {
+    width: 1rem;
+  }
+  #copyright-footer p {
+    font-size: 16px;
+  }
+  /* -----------Results------------- */
+  #section-result {
+    margin: 1rem;
+  }
+  #content-voteModal {
+    width: 75%;
+  }
+  #voter-info-candidates th {
+    padding: 5px 0px;
+    text-align: center;
+  }
+  #voter-info-candidates td, #voter-info-candidates th {
+    padding: 2px;
+  }
+  #voter-info-candidates tr td img {
+    width: 2.3rem;
+    height: 2.3rem;
+  }
+  /* -----------------Admin-------------- */
+  .form-content .form-text {
+    font-size: 25px;
+    margin-bottom: 25px;
+  }
+  #section-adminHome {
+    margin: 2rem 1rem;
+  }
+  .submitBtn {
+    font-size: 12px;
+    line-height: 5px;
+    padding: 0.5rem;
+    margin-bottom: 3px;
+  }
+  .navbar-txt-mid {
+    margin: 1px;
+  }
+  .allBtn {
+    font-size: 16px;
+    line-height: 22px;
+  }
+}
